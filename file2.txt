@@ -1,0 +1,42 @@
+﻿
+
+
+Execution History of the Self-Service Passport Control Case Study
+Initial State: passport=3 (Passport control empty)
+Passenger A enters:
+    • A.S1; passport=2; wait succeeded (Passenger A is let in as there is space.)
+    • A.S2; passport=2; scan (Passenger A is scanning .)
+    • A.S3; passport=3; signal changed (Passenger A departs, indicating that there is room.)
+Passenger B enters:
+    • B.S1; passport=2; wait succeeded (Since there is room, Passenger B is permitted to enter.)
+    • B.S2; passport=2; scan (Passenger B is using their passport scanner.)
+    • B.S3; passport=3; signal changed (Passenger B departs, indicating that there is room.)
+Passenger C enters:
+    • C.S1; passport=2; wait succeeded (Since there is room, Passenger C is permitted to enter.)
+    • C.S2; passport=2; scan (Passenger C is using their passport scanner.)
+    • C.S3; passport=3; signal changed (Passenger C departs, indicating that there is room.)
+Passenger D enters:
+    • D.S1; passport=2; wait succeeded (Since there is room, Passenger D is permitted to enter.)
+    • D.S2; passport=2; scan (Passenger D is using their passport scanner.)
+    • D.S3; passport=3; signal changed (Passenger D departs, indicating that there is room.)
+Passenger E enters:
+    • E.S1; passport=2; wait placed in the queue (E is in line, and passport control is packed.)
+Passenger A leaves:
+    • A.S1; passport=3; wait succeeded (As long as there is room, Passenger A may reenter.)
+    • A.S2; passport=3; scan (Passenger A is using their passport scanner.)
+    • A.S3; passport=3; signal changed (Passenger A departs, indicating that there is room.)
+Passenger E resumes:
+    • E.S1; passport=2; wait succeeded (E is welcome to come in as there is room.)
+    • E.S2; passport=2; scan (E is using the passport scanner.)
+    • E.S3; passport=3; signal changed (E departs, indicating that there is room.)
+Passenger F enters (passport control is full):
+    • F.S1; passport=2; wait placed in the queue (F is in line, and passport control is full.)
+Passenger B leaves:
+    • B.S1; passport=3; wait succeeded (Since there is still room, Passenger B is permitted to reenter.)
+    • B.S2; passport=3; scan (Passenger B is using their passport scanner.)
+    • B.S3; passport=3; signal changed (Passenger B departs, indicating that there is room.)
+Passenger F resumes:
+    • F.S1; passport=2; wait succeeded (F is welcome to come in since there is room.)
+    • F.S2; passport=2; scan (F is using the passport scanner.)
+    • F.S3; passport=3; signal changed (F departs, indicating that there is room.)
+

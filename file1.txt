@@ -1,0 +1,10 @@
+﻿
+Title: Investigating the Impact of Green Spaces on Urban Mental Health: A Citywide Analysis
+1. Introduction:
+The availability and accessibility of green areas within cities are becoming increasingly important for citizens' mental health as urbanization picks up speed. Through a thorough citywide examination, this research initiative seeks to understand how green areas affect urban mental health.
+2. Research Objectives:
+a. Objective 1: Analyze the relationship between urban mental health indices and the number and closeness of green spaces.
+ b. Objective 2: Examine the benefits of various green areas (parks, community gardens, etc.) on mental health. 
+c. Objective 3:Determine the socioeconomic variables affecting the fair distribution and use of green areas for the sake of improving mental health.
+3. Dataset:
+Data collection from people of the city's many neighborhoods will be part of this study project. The dataset will contain demographic data, geographic information system (GIS) data on green areas, and mental health evaluations.
